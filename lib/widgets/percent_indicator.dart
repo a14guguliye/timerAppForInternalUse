@@ -23,7 +23,7 @@ class _TimerIndicatorState extends State<TimerIndicator> {
       builder: (context, snapshot) {
         return Expanded(
           child: CircularPercentIndicator(
-            radius: widget.availableWidth / 4,
+            radius: widget.availableWidth / 2.1,
             lineWidth: 10,
             percent: double.parse(snapshot.data.toString()) / tr.work,
             progressColor: const Color(0xff009688),
